@@ -14,7 +14,7 @@ function Header() {
 function Navv() {
     return (
         <Navbar bg="dark" expand="lg" className=''>
-            <Container fluid className='mx-2'>
+            <Container fluid className='mx-3'>
                 <Navbar.Brand href="#"><span> Fatima Lawn </span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className=''>

@@ -11,7 +11,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Banner() {
     return (
+        <div>
         <Carousel_ />
+        </div>
 
     )
 }
@@ -27,7 +29,7 @@ function Carousel_() {
                     alt="First slide"
                 />
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={500}>  
                 <img
                     className="d-block w-100"
                     src={Slide2}
