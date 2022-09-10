@@ -1,16 +1,21 @@
 import React from 'react'
-import '../Assets/Css/web.css'
 import Header from '../Containers/Header/Header'
 import Banner from '../Containers/Banner/Banner'
 import About from '../Pages/About'
+import OurTeam from '../Pages/OurTeam'
+import Why from '../Pages/Why'
+import ContactUs from '../Pages/ContactUs'
+import '../Assets/Css/web.css'
 
 function MainPage() {
     return (
         <main>
             <Header />
             <Banner />
-            <br className='py-5'/>
             <About />
+            <OurTeam />
+            <Why />
+            <ContactUs />
         </main>
     )
 }

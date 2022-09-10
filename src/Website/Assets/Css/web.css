@@ -1,3 +1,14 @@
+button {
+    font-weight: bold !important;
+    border: 1px solid transparent;
+}
+
+button:focus {
+    box-shadow: none !important;
+    border: 1px solid transparent;
+}
+
+
 
 /*  Bar */
 .bar {
@@ -15,7 +26,7 @@
     margin: 0 auto;
     height: 5px;
     background-color: #000;
-    /* width: 100%; */
+    /* width: 8%; */
     /* background-image: url('https://yahiya166.github.io/Yahiya166-Client_Web_App/Pics/logo1.png'); */
     /* background-image: url('../WebImages/bar.png'); */
     /* background-repeat: no-repeat;
@@ -26,14 +37,20 @@
 .about .bar::after {
     width: 8%;
 }
+
+.team .bar::after {
+    width: 12%;
+}
+
 /*  Bar */
 
 
 
 /* About */
-.about h2 {
+
+.bar_  h2 {
     text-transform: uppercase;
     font-weight: bold;
 }
-/* About */
 
+/* About */

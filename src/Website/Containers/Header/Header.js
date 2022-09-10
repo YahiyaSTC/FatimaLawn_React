@@ -14,15 +14,15 @@ function Header() {
 function Navv() {
     return (
         <Navbar bg="dark" expand="lg" className=''>
-            <Container fluid className='mx-3'>
-                <Navbar.Brand href="#"><span> Fatima Lawn </span></Navbar.Brand>
+            <Container className=''>
+                <Navbar.Brand ><span> Fatima Lawn </span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className=''>
 
 
 
                     <Nav
-                        className="me-auto my-2 my-lg-0 w-100 d-flex gap-3 flex-column align-items-end"
+                        className="me-auto my-2 my-lg-0 w-100 d-flex flex-column align-items-end"
                         navbarScroll
                     >
                         <ListGroup as='ul' >
