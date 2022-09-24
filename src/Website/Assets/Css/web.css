@@ -42,6 +42,11 @@ button:focus {
     width: 12%;
 }
 
+
+.contact .bar::after {
+    width: 16%;
+}
+
 /*  Bar */
 
 
@@ -54,3 +59,78 @@ button:focus {
 }
 
 /* About */
+
+/* contact */
+.contact form {
+    background-color: #fff;
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contact form label {
+    font-size: 17px ;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.contact form input, .contact form textarea {
+    font-size: 15px;
+    padding: 15px 10px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.336);
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.contact form textarea {
+    resize: none;
+    margin: 0;
+    padding: 4px 10px;
+    height: 100px;
+}
+.contact form .btn {
+    border-radius: 2px;
+    /* background-color: #003471; */
+    font-size: 18px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact form input:focus, .contact form textarea:focus {
+    box-shadow: none;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.contact form input::placeholder , .contact form textarea::placeholder{
+    color: #fff;
+}
+
+.contact .info ul{
+    flex-direction: column !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.contact .info ul li{
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end !important;
+}
+
+.contact .info ul li a {
+    color: #000;
+}
+
+.contact .info i {
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+/* contact */

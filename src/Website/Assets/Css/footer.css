@@ -1,0 +1,23 @@
+.footer .footer_top h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+
+.footer .footer_top h5,.footer .footer_top p,.footer .footer_top i {
+    color: #fff;
+}
+
+.footer .footer_bottom p {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.footer .footer_bottom p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}

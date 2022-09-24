@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Containers/Header/Header'
 import Banner from '../Containers/Banner/Banner'
+import Footer from '../Containers/Footer/Footer'
 import About from '../Pages/About'
 import OurTeam from '../Pages/OurTeam'
 import Why from '../Pages/Why'
@@ -16,6 +17,7 @@ function MainPage() {
             <OurTeam />
             <Why />
             <ContactUs />
+            <Footer />
         </main>
     )
 }
