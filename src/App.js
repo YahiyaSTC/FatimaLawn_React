@@ -1,12 +1,18 @@
 // React
 import React from "react";
-// import React, {useState} from "react";
 import { Route, Routes } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 
 
 // Website
 import MainPage from './Website/Pages/MainPage'
+
+// Admin
+import Dashboard from './Admin/Pages/Dashboard/Dashboard'
+import RegisteredPrograms from './Admin/Pages/RegisteredPrograms/RegisteredPrograms'
+import NewRegistration from './Admin/Pages/NewRegistration/NewRegistration'
+import SearchPrograms from './Admin/Pages/SearchPrograms/SearchPrograms'
+import Calender from './Admin/Pages/Calender/Calender'
 
 
 // Error
@@ -21,7 +27,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-  // const [user, setLoginUser] = useState({})
   return (
 
     <div className="view ">
@@ -29,15 +34,17 @@ function App() {
         <Row>
           <Col sm={12} className="d-flex">
 
-            {/* <CompanyProfile1 /> */}
-
-            {/* <Navigation /> */}
-
-
-
             <Routes>
               {/* Website */}
               <Route path="/" element={<MainPage />} />
+
+
+              {/* Admin */}
+              <Route path="/admin" element={<Dashboard />} />
+              <Route path="/registeredPrograms" element={<RegisteredPrograms />} />
+              <Route path="/newRegistration" element={<NewRegistration />} />
+              <Route path="/searchPrograms" element={<SearchPrograms />} />
+              <Route path="/calender" element={<Calender />} />
 
               {/* Error */}
               <Route path="*" element={<Error />} />

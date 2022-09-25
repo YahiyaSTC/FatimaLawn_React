@@ -43,7 +43,7 @@ function Footer() {
           <Row>
             <Col md={12} className="d-flex align-items-center justify-content-between flex-wrap gap-2">
               <p>
-                © 2022 <Link to="/">Fatima Lawn</Link>. All Rights Reserved.
+                © 2022 <Link to="/admin">Fatima Lawn</Link>. All Rights Reserved.
               </p>
               <p>
               Design by <a href="https://yahiya166.github.io/My-Portfolio/" target="_blank">Muhammad Yahiya</a>
