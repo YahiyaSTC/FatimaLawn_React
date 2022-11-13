@@ -10,7 +10,7 @@ import '../Assets/Css/web.css'
 
 function MainPage() {
     return (
-        <main>
+        <main className='main bg-white'>
             <Header />
             <Banner />
             <About />

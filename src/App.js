@@ -29,7 +29,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
 
-    <div className="view ">
+    <div className="view bg-light">
       <Container fluid>
         <Row>
           <Col sm={12} className="d-flex">

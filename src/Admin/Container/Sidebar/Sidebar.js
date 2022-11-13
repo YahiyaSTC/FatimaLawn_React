@@ -15,10 +15,10 @@ function Sidebar() {
            Fatima Lawn 
         </h1>
       </div>
-      <div className="list w-100">
+      <div className="list">
         <ListGroup as="ul">
 
-          <ListGroupItem as="li">
+          <ListGroupItem as="li" className="">
             <Link to="/admin" className="">
               Dashboard
             </Link>

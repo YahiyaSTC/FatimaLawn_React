@@ -1,2 +1,60 @@
+.dashboard .scroll {
+  height: 100vh;
+  overflow-y: hidden !important;
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.dashboard .body {
+  height: 92vh;
+  width: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+}
+
+.dashboard .body .box {
+  border-left: 5px solid #000;
+  background-color: rgb(255, 255, 255);
+  margin: 10px 0;
+}
+
+.dashboard .body .box p,
+.dashboard .body .box p span {
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+}
+
+.dashboard .tablesection a {
+  font-size: 20px;
+}
 
 
+.dashboard .tablebody table th,.dashboard .tablebody table td{
+  white-space: nowrap;
+  padding: 5px 20px;
+}
+
+.dashboard .tablebody table td button  {
+  font-size: 13px;
+  padding: 2px 20px  !important;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.753);
+  border-color: rgba(0, 0, 0, 0.753);
+  /* border-bottom-right-radius: 0; */
+  /* border-top-right-radius: 0; */
+}
+
+
+.dashboard .tablebody table td button:hover{
+  background-color: #000;
+}

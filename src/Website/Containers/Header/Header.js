@@ -13,9 +13,9 @@ function Header() {
 
 function Navv() {
     return (
-        <Navbar bg="dark" expand="lg" className=''>
+        <Navbar bg="dark" expand="lg" className='w-100'>
             <Container className=''>
-                <Navbar.Brand ><span> Fatima Lawn </span></Navbar.Brand>
+                <Navbar.Brand href="/admin"><span> Fatima Lawn </span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className=''>
 

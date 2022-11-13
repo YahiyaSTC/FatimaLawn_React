@@ -8,17 +8,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Calender() {
   return (
     <main className="admin">
-      <Container fluid className="dashboard admin_">
-        <Row>
-          <Col md={2} className="pe-0">
-            <Sidebar />
-          </Col>
-          <Col md={10} className="ps-0">
-            <Header />
-            <div className="body">Calender</div>
-          </Col>
-        </Row>
-      </Container>
+      <div className="dashboard admin_">
+        <Container fluid>
+          <Row>
+            <Col md={2} className="pe-0">
+              <Sidebar />
+            </Col>
+            <Col md={10} className="ps-0 scroll">
+              <Header />  
+              <div className="body p-5 bg-light">Calender</div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </main>
   );
 }
